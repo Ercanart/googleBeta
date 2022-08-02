@@ -63,6 +63,14 @@ button {  /* butonların arasındaki boşluk için*/
     display:table;
     
 }
+/* div3'e aşağıdaki class' ı atamasak bile, içine sadece "display:table;" yazdığımızda hizalanabiliyor. */
+/* Yani alttaki class'ı aktif tutmaya gerek kalmıyor. Yukarıdaki GreyBox class'ın daki yapının aynısını kurmaya gerek yok! */
+/* .div3 input button {   */
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* text-align: center; */
+/* } */
+
 #greenp {   /*green box paragraf  */
     background-color: #62b3aa; 
     width: 586px;
