@@ -1,0 +1,90 @@
+body {
+    background-color: #ffffff;
+    text-align: center;
+}
+/****************************Navbar*******************************/
+.greyBox {   /* Kapsayıcı nesnemize "display: table" verip o nesneyi tablo yapacağız.. */
+    background-color: #eeeeee;
+    width: 1360px;
+    height: 37px;
+    margin: auto; /*Ekranı ortalar */
+    display: table;
+    margin-bottom: 2px;
+}
+.greyBox input button{    /* Daha sonra dikey olarak ortalayacağımız nesneye ise "display: table-cell" deyip "vertical-align: middle" ile dikey olarak ortalama işlemimizi gerçekleştireceğiz.*/
+    display: table-cell;
+    vertical-align: middle;
+    /* text-align: center */
+}
+#greyp {   /*grey box paragraf  */
+    background-color:#eeeeee ;
+    width: 1360px;
+    margin: auto; /*Ekranı ortalar */
+}
+#searchInput {  /* text input boyutları için*/
+    width: 290px;
+    height: 15px;
+}
+button {  /* butonların arasındaki boşluk için*/
+    margin-right: 3px;
+}
+/****************************Section*******************************/  /**/
+.div1 {
+    background-color: #7ee5da;
+    height: 75px;
+    width: 500px;
+    font-size: 16px;
+    display:table;
+    float: left;
+    margin-left: 80px;
+    margin-right: 2px;
+}
+.childDiv {  /*divlerin içindeki linkleri dikey ortalamak için */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.div2 {
+    
+    background-color: #70ccc2;
+    height: 75px;
+    width: 270px;
+    font-size: 13px;
+    display:table;
+    float: left;
+    margin-right: 2px;
+}
+.div3 {
+    
+    background-color: #62b3aa; 
+    height: 45px;
+    width: 586px;
+    font-size: 13px;
+    display:table;
+    
+}
+#greenp {   /*green box paragraf  */
+    background-color: #62b3aa; 
+    width: 586px;
+    height: 30px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 13px;
+    float: left;
+}
+#emailInput {  /* e-mail text input boyutları için*/
+    width: 160px;
+    height: 16px;
+}
+#aindent {   /* Subscribe butonu ve archive linki arasındaki boşluk için*/
+    padding-left: 7px;
+  }
+
+
+footer {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 13px;
+    
+}
+
